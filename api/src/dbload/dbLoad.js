@@ -1,6 +1,8 @@
 const { Episode } = require ("../db.js");
 const axios = require("axios");
 
+
+//cambios
  const getEpisodes = async()=> {
     await axios.get('https://rickandmortyapi.com/api/episode')
         .then(( r )=> {
